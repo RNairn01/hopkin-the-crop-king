@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &600786310257810223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 600786310257810221}
+  - component: {fileID: 600786310257810220}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &600786310257810221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600786310257810223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &600786310257810220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600786310257810223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a1f924b8950fa4982c31d2f2ed90aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: AlienShoot
+    clip: {fileID: 8300000, guid: 1a5c99a1a4961fe44a7cedb628e29e51, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: CrowPass
+    clip: {fileID: 8300000, guid: b471ae68868fe534381fbd609ec0027c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: LevelComplete
+    clip: {fileID: 8300000, guid: d13a50edf30d986499f40f5a361dc247, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PickupSeed
+    clip: {fileID: 8300000, guid: a44a38978404e694196e88523f5a6698, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PickupSeed
+    clip: {fileID: 8300000, guid: a44a38978404e694196e88523f5a6698, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ScarecrowHurt
+    clip: {fileID: 8300000, guid: 0640af95a9112b04f968b15983cc92ac, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ScarecrowJump
+    clip: {fileID: 8300000, guid: 87d3eee8afe7bf0439a372b75a9f73c7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ScarecrowJumpBig
+    clip: {fileID: 8300000, guid: 8e19a08a36578bd46bdab881c0dd7934, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: StartGame
+    clip: {fileID: 8300000, guid: d35bf776f67c830419017b9999259ff1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Theme
+    clip: {fileID: 8300000, guid: f3153f10ff2286142b241b07108939aa, type: 3}
+    volume: 0.302
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: AlienDie
+    clip: {fileID: 8300000, guid: 78e8c1dc2071a5748b37cb146266bad7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: AlienDieAlt
+    clip: {fileID: 8300000, guid: 4757e6014c073e34e8c09ab3528d722d, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: AlienShootAlt
+    clip: {fileID: 8300000, guid: 82127e2bd5de3bf459f9a12376ce42ea, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
